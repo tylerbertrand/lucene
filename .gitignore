@@ -1,6 +1,6 @@
 # Gradle.
 # Ignore the generated local settings file.
-/gradle.properties
+#/gradle.properties
 .gradle/
 build/
 

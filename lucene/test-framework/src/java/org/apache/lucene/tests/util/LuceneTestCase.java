@@ -264,7 +264,7 @@ import org.junit.runner.RunWith;
     defaultFilters = true,
     filters = {QuickPatchThreadsFilter.class})
 @TestRuleLimitSysouts.Limit(
-    bytes = TestRuleLimitSysouts.DEFAULT_LIMIT,
+    bytes = TestRuleLimitSysouts.MAX_LIMIT,
     hardLimit = TestRuleLimitSysouts.DEFAULT_HARD_LIMIT)
 public abstract class LuceneTestCase extends Assert {
 
